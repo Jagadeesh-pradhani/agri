@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="moisture_node" pkg="minor" type="moisture_sensor.py" output="screen">
+    </node>    
+
+    <node name="server_node" pkg="minor" type="send_to_server.py" output="screen">
+    </node>
+</launch>
