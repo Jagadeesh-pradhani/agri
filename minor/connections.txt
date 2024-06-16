@@ -1,0 +1,34 @@
+////////////////////////////////////////////////////////////////////
+IC MCP3008
+
+VDD  = 3.3
+Vref = 3.3
+AGND = gnd
+
+CLK  = GPIO11
+Dout = GPIO9
+Din  = GPIO10
+CS   = GPIO8
+
+DGND = gnd
+
+CH0  = sensor signal pin.
+
+
+////////////////////////////////////////////////////////////////////
+Moisture sensor
+
+Vcc  = 5
+GND  = gnd
+sig  = CH0 (MCP3008)
+
+
+////////////////////////////////////////////////////////////////////
+DS18B20 temp sensor
+
+Vcc  = 3.3
+GND  = gnd
+sig  = GPIO4
+
+Vcc <-> 4.7k ohm <-> sig
+
